@@ -1,4 +1,4 @@
-/* Estilos Gerais */
+/*Estilos Gerais*/
 
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -8,6 +8,10 @@ p {
   font-family: Georgia, "Times New Roman", serif;
   font-size: 14px;
   line-height: 20px;
+}
+
+img {
+  display: block;
 }
 
 .btn {
@@ -51,13 +55,13 @@ p {
   margin: 8px auto;
 }
 
-/* Header */
+/*Header*/
 
 .header {
   position: fixed;
   top: 0;
   width: 100%;
-  background: #fec63e; /* Amarelo */
+  background: #fec63e; /*Amarelo*/
   padding: 15px 0;
   z-index: 10;
 }
@@ -86,14 +90,14 @@ p {
   color: #fff;
 }
 
-/* Introdução */
+/*Introdução*/
 
 .introducao {
   width: 100%;
   height: 380px;
   background: url("../img/bg.jpg") no-repeat center;
   background-size: cover;
-  margin-top: 96px;
+  margin-top: 92px;
   text-align: center;
   padding-top: 80px;
 }
@@ -209,4 +213,47 @@ p {
 
 .qualidade {
   padding: 60px 0;
+}
+
+.qualidade:after {
+  content: "";
+  width: 634px;
+  height: 83px;
+  display: block;
+  background: url("../img/linhas.svg") no-repeat center;
+  position: absolute;
+  top: 209px;
+  right: 162px;
+  z-index: -1;
+}
+
+.qualidade img {
+  margin: 0 auto;
+}
+
+.qualidade_lista {
+  padding-top: 20px;
+}
+
+.qualidade_lista li {
+  text-align: center;
+  padding: 0 40px;
+}
+
+.qualidade_lista li h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-top: 20px;
+}
+
+.qualidade_lista li h3:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000;
+  margin: 6px auto;
 }
